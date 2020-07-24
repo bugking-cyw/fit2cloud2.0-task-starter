@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.fit2cloud.task.autoconfig.TaskAutoConfiguration,\
+  com.fit2cloud.task.config.TaskConfig

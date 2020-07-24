@@ -5,6 +5,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
 /**
  * @Company: FIT2CLOUD 飞致云
@@ -14,6 +15,7 @@ import org.springframework.context.annotation.Bean;
  * @Description: Please Write notes scientifically
  * 定时任务读取配置信息
  */
+@Configuration
 public class TaskConfig {
     private Logger logger = LoggerFactory.getLogger(TaskConfig.class);
 
